@@ -1,0 +1,22 @@
+{
+  "name": "shop-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:luiz2003/shop-api.git",
+  "author": "Luiz Valverde <luizcastroval321@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.2",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.5"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.10",
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start": "ts-node index.ts",
+    "dev": "nodemon index.ts"
+  }
+}
